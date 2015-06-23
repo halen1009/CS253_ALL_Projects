@@ -1,0 +1,10 @@
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example03\bin\Debug\example03.exe.config
+D:\程式Coding\C#\Projects\CS25320150616\example03\bin\Debug\example03.exe.config
+D:\程式Coding\C#\Projects\CS25320150616\example03\bin\Debug\example03.exe
+D:\程式Coding\C#\Projects\CS25320150616\example03\bin\Debug\example03.pdb
+D:\程式Coding\C#\Projects\CS25320150616\example03\obj\Debug\example03.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\CS25320150616\example03\obj\Debug\example03.Form1.resources
+D:\程式Coding\C#\Projects\CS25320150616\example03\obj\Debug\example03.Properties.Resources.resources
+D:\程式Coding\C#\Projects\CS25320150616\example03\obj\Debug\example03.csproj.GenerateResource.Cache
+D:\程式Coding\C#\Projects\CS25320150616\example03\obj\Debug\example03.exe
+D:\程式Coding\C#\Projects\CS25320150616\example03\obj\Debug\example03.pdb

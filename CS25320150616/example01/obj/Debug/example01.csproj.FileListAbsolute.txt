@@ -1,0 +1,12 @@
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example01\bin\Debug\example01.exe.config
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example01\bin\Debug\example01.exe
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example01\bin\Debug\example01.pdb
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example01\obj\Debug\example01.csprojResolveAssemblyReference.cache
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example01\obj\Debug\example01.exe
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example01\obj\Debug\example01.pdb
+D:\程式Coding\C#\Projects\CS25320150616\example01\bin\Debug\example01.exe.config
+D:\程式Coding\C#\Projects\CS25320150616\example01\obj\Debug\example01.exe
+D:\程式Coding\C#\Projects\CS25320150616\example01\obj\Debug\example01.pdb
+D:\程式Coding\C#\Projects\CS25320150616\example01\bin\Debug\example01.exe
+D:\程式Coding\C#\Projects\CS25320150616\example01\bin\Debug\example01.pdb
+D:\程式Coding\C#\Projects\CS25320150616\example01\obj\Debug\example01.csprojResolveAssemblyReference.cache

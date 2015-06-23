@@ -1,0 +1,6 @@
+D:\程式Coding\C#\Projects\Homework\Homework03\homework03-2\bin\Debug\homework03-2.exe.config
+D:\程式Coding\C#\Projects\Homework\Homework03\homework03-2\bin\Debug\homework03-2.exe
+D:\程式Coding\C#\Projects\Homework\Homework03\homework03-2\bin\Debug\homework03-2.pdb
+D:\程式Coding\C#\Projects\Homework\Homework03\homework03-2\obj\Debug\homework03-2.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\Homework\Homework03\homework03-2\obj\Debug\homework03-2.exe
+D:\程式Coding\C#\Projects\Homework\Homework03\homework03-2\obj\Debug\homework03-2.pdb

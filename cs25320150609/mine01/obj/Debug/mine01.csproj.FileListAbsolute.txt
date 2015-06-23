@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\code\cs25320150609\mine01\bin\Debug\mine01.exe.config
+C:\Users\user\Desktop\code\cs25320150609\mine01\bin\Debug\mine01.exe
+C:\Users\user\Desktop\code\cs25320150609\mine01\bin\Debug\mine01.pdb
+C:\Users\user\Desktop\code\cs25320150609\mine01\obj\Debug\mine01.exe
+C:\Users\user\Desktop\code\cs25320150609\mine01\obj\Debug\mine01.pdb
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150609\mine01\bin\Debug\mine01.exe.config
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150609\mine01\obj\Debug\mine01.exe
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150609\mine01\obj\Debug\mine01.pdb
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150609\mine01\bin\Debug\mine01.exe
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150609\mine01\bin\Debug\mine01.pdb

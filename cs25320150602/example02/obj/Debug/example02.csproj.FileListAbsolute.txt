@@ -1,0 +1,8 @@
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\bin\Debug\example02.exe.config
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\bin\Debug\example02.exe
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\bin\Debug\example02.pdb
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\obj\Debug\example02.Form1.resources
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\obj\Debug\example02.Properties.Resources.resources
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\obj\Debug\example02.csproj.GenerateResource.Cache
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\obj\Debug\example02.exe
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150602\example02\obj\Debug\example02.pdb

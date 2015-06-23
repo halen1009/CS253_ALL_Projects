@@ -1,0 +1,8 @@
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\bin\Debug\EmployeeClassLibrary.dll
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\bin\Debug\EmployeeClassLibrary.pdb
+D:\程式Coding\C#\Projects\test\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache

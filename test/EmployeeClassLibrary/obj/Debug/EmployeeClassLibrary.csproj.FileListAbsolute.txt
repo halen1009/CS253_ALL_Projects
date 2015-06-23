@@ -1,0 +1,4 @@
+D:\程式Coding\C#\Projects\test\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.pdb
+D:\程式Coding\C#\Projects\test\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.dll
+D:\程式Coding\C#\Projects\test\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.pdb
+D:\程式Coding\C#\Projects\test\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+D:\程式Coding\C#\Projects\CS25320150616\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.dll
+D:\程式Coding\C#\Projects\CS25320150616\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.pdb
+D:\程式Coding\C#\Projects\CS25320150616\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.dll
+D:\程式Coding\C#\Projects\CS25320150616\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.pdb

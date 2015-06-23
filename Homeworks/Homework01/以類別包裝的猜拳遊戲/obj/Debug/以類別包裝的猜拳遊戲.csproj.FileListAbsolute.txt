@@ -1,0 +1,6 @@
+D:\程式Coding\C#\Projects\Homeworks\Homework01\以類別包裝的猜拳遊戲\bin\Debug\以類別包裝的猜拳遊戲.exe.config
+D:\程式Coding\C#\Projects\Homeworks\Homework01\以類別包裝的猜拳遊戲\bin\Debug\以類別包裝的猜拳遊戲.exe
+D:\程式Coding\C#\Projects\Homeworks\Homework01\以類別包裝的猜拳遊戲\bin\Debug\以類別包裝的猜拳遊戲.pdb
+D:\程式Coding\C#\Projects\Homeworks\Homework01\以類別包裝的猜拳遊戲\obj\Debug\以類別包裝的猜拳遊戲.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\Homeworks\Homework01\以類別包裝的猜拳遊戲\obj\Debug\以類別包裝的猜拳遊戲.exe
+D:\程式Coding\C#\Projects\Homeworks\Homework01\以類別包裝的猜拳遊戲\obj\Debug\以類別包裝的猜拳遊戲.pdb

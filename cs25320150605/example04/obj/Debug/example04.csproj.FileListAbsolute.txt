@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\0605\cs25320150605\example04\bin\Debug\example04.exe.config
+C:\Users\user\Desktop\0605\cs25320150605\example04\bin\Debug\example04.exe
+C:\Users\user\Desktop\0605\cs25320150605\example04\bin\Debug\example04.pdb
+C:\Users\user\Desktop\0605\cs25320150605\example04\obj\Debug\example04.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\0605\cs25320150605\example04\obj\Debug\example04.Form1.resources
+C:\Users\user\Desktop\0605\cs25320150605\example04\obj\Debug\example04.Properties.Resources.resources
+C:\Users\user\Desktop\0605\cs25320150605\example04\obj\Debug\example04.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\0605\cs25320150605\example04\obj\Debug\example04.exe
+C:\Users\user\Desktop\0605\cs25320150605\example04\obj\Debug\example04.pdb

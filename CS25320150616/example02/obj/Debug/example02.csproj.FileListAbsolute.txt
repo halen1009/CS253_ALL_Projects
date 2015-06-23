@@ -1,0 +1,12 @@
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example02\bin\Debug\example02.exe.config
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example02\bin\Debug\example02.exe
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example02\bin\Debug\example02.pdb
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example02\obj\Debug\example02.csprojResolveAssemblyReference.cache
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example02\obj\Debug\example02.exe
+c:\users\r380\documents\visual studio 2013\Projects\CS25320150616\example02\obj\Debug\example02.pdb
+D:\程式Coding\C#\Projects\CS25320150616\example02\bin\Debug\example02.exe.config
+D:\程式Coding\C#\Projects\CS25320150616\example02\obj\Debug\example02.exe
+D:\程式Coding\C#\Projects\CS25320150616\example02\obj\Debug\example02.pdb
+D:\程式Coding\C#\Projects\CS25320150616\example02\obj\Debug\example02.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\CS25320150616\example02\bin\Debug\example02.exe
+D:\程式Coding\C#\Projects\CS25320150616\example02\bin\Debug\example02.pdb

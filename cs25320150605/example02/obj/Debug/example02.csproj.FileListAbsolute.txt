@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\0605\cs25320150605\example02\bin\Debug\example02.exe.config
+C:\Users\user\Desktop\0605\cs25320150605\example02\bin\Debug\example02.exe
+C:\Users\user\Desktop\0605\cs25320150605\example02\bin\Debug\example02.pdb
+C:\Users\user\Desktop\0605\cs25320150605\example02\obj\Debug\example02.exe
+C:\Users\user\Desktop\0605\cs25320150605\example02\obj\Debug\example02.pdb
+C:\Users\user\Desktop\0605\cs25320150605\example02\obj\Debug\example02.csprojResolveAssemblyReference.cache
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150605\example02\bin\Debug\example02.exe.config
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150605\example02\obj\Debug\example02.exe
+C:\Users\R380\Documents\Visual Studio 2013\Projects\cs25320150605\example02\obj\Debug\example02.pdb
