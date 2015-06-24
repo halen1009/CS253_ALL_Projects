@@ -1,0 +1,6 @@
+D:\程式Coding\C#\Projects\Homeworks\Homework03\以類別包裝的猜數字\bin\Debug\以類別包裝的猜數字.exe.config
+D:\程式Coding\C#\Projects\Homeworks\Homework03\以類別包裝的猜數字\bin\Debug\以類別包裝的猜數字.exe
+D:\程式Coding\C#\Projects\Homeworks\Homework03\以類別包裝的猜數字\bin\Debug\以類別包裝的猜數字.pdb
+D:\程式Coding\C#\Projects\Homeworks\Homework03\以類別包裝的猜數字\obj\Debug\以類別包裝的猜數字.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\Homeworks\Homework03\以類別包裝的猜數字\obj\Debug\以類別包裝的猜數字.exe
+D:\程式Coding\C#\Projects\Homeworks\Homework03\以類別包裝的猜數字\obj\Debug\以類別包裝的猜數字.pdb
