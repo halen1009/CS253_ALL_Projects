@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkingElsa", "WalkingElsa\WalkingElsa.csproj", "{5B80952E-CB83-4D04-B8B8-A3A797156207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{93502EFA-C03F-4480-8DD6-153BF24760EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B80952E-CB83-4D04-B8B8-A3A797156207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B80952E-CB83-4D04-B8B8-A3A797156207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B80952E-CB83-4D04-B8B8-A3A797156207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B80952E-CB83-4D04-B8B8-A3A797156207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93502EFA-C03F-4480-8DD6-153BF24760EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93502EFA-C03F-4480-8DD6-153BF24760EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93502EFA-C03F-4480-8DD6-153BF24760EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93502EFA-C03F-4480-8DD6-153BF24760EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

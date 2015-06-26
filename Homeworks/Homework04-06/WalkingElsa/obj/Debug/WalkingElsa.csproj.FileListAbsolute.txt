@@ -1,0 +1,9 @@
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\bin\Debug\WalkingElsa.exe.config
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\bin\Debug\WalkingElsa.exe
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\bin\Debug\WalkingElsa.pdb
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.Form1.resources
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.Properties.Resources.resources
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.csproj.GenerateResource.Cache
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.exe
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.pdb
+D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.csprojResolveAssemblyReference.cache

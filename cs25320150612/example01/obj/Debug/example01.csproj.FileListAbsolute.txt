@@ -7,3 +7,9 @@ C:\Users\user\Desktop\Projects\cs25320150612\example01\obj\Debug\example01.Prope
 C:\Users\user\Desktop\Projects\cs25320150612\example01\obj\Debug\example01.csproj.GenerateResource.Cache
 C:\Users\user\Desktop\Projects\cs25320150612\example01\obj\Debug\example01.exe
 C:\Users\user\Desktop\Projects\cs25320150612\example01\obj\Debug\example01.pdb
+D:\程式Coding\C#\Projects\cs25320150612\example01\obj\Debug\example01.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\cs25320150612\example01\obj\Debug\example01.Form1.resources
+D:\程式Coding\C#\Projects\cs25320150612\example01\obj\Debug\example01.Properties.Resources.resources
+D:\程式Coding\C#\Projects\cs25320150612\example01\obj\Debug\example01.csproj.GenerateResource.Cache
+D:\程式Coding\C#\Projects\cs25320150612\example01\obj\Debug\example01.exe
+D:\程式Coding\C#\Projects\cs25320150612\example01\obj\Debug\example01.pdb
