@@ -34,6 +34,19 @@ namespace WalkingElsa
             }
         }
 
+        private int face;
+
+        public int Face
+        {
+            get { return face; }
+            set
+            {
+                if (face < 0) face = 0;
+                else if (face > 360) face = 360;
+                else face = value;
+            }
+        }
+
         private Position startPosition;
 
         public Position StartPosition
@@ -86,27 +99,57 @@ namespace WalkingElsa
             this.animationTimer = new Timer();
         }
 
-        public Position Moveforward(float dx, float dy)
+        public void changeDirection(int turn)
+        {
+            face = (face + turn) % 360;
+        }
+
+        public Position Walk()
+        {
+            float dx = velocity * (float)Math.Cos(Face) * animationTimer.Interval / 1000.0f;
+            float dy = velocity * (float)Math.Sin(Face) * animationTimer.Interval / 1000.0f;
+            return UpdateElsaPosition(position.X + dx > endPosition.X ? 0 : dx, position.Y + dy > endPosition.Y ? 0 : dy);
+        }
+
+        public Position UpdateElsaPosition(float dx, float dy)
         {
             this.position.X += (int)dx;
             this.position.Y += (int)dy;
+            elsaImagePictureBox.Location = new Point(position.X, position.Y);
+            elsaTrack.points.Add(elsaImagePictureBox.Location);
             return this.position;
-        }
-
-        public Position UpdateElsaPosition()
-        {
-            float dx = velocity * animationTimer.Interval / 1000.0f;
-            float dy = velocity * animationTimer.Interval / 1000.0f;
-            return Moveforward(position.X + dx > endPosition.X ? 0 : dx, position.Y + dy > endPosition.Y ? 0 : dy);
         }
 
         public void animationTimer_Tick(object sender, EventArgs e)
         {
-            UpdateElsaPosition();
-            elsaImagePictureBox.Location = new Point(position.X, position.Y);
-            elsaTrack.points.Add(elsaImagePictureBox.Location);
+            Rectangular();
 
             //Form1.messageRichTextBox.Text = string.Format("Elsa的位置x = {0}, y = {1}", position.GetX(), position.Y);
+        }
+
+        public void MoveForward()
+        {
+            Walk();
+        }
+
+        public void Rectangular()
+        {
+            //for (int i = 0; i < 4; i++)
+            //{
+            double distance = 0;
+            Position turnPoint = new Position();
+            turnPoint = position;
+
+            //while (distance < endPosition.X)
+            //{
+            Walk();
+            //distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
+            //};
+            //if((Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y))>endPosition.X)
+            if (position.X > endPosition.X)
+                changeDirection(180);
+            Walk();
+            //}
         }
 
         //public void InitializeImage()

@@ -10,7 +10,7 @@ namespace WalkingElsa
     internal class Track
     {
         public Graphics graphic;
-        public Pen pen = new Pen(Color.Cyan, 6);
+        public Pen pen = new Pen(Color.Cyan, 2);
         public List<Point> points = new List<Point>();
     }
 }

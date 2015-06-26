@@ -31,6 +31,7 @@
             this.startButton = new System.Windows.Forms.Button();
             this.forwardDistanceComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.moveModeComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // startButton
@@ -73,11 +74,22 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "距離: ";
             // 
+            // moveModeComboBox
+            // 
+            this.moveModeComboBox.Font = new System.Drawing.Font("新細明體", 12F);
+            this.moveModeComboBox.FormattingEnabled = true;
+            this.moveModeComboBox.Location = new System.Drawing.Point(81, 283);
+            this.moveModeComboBox.Name = "moveModeComboBox";
+            this.moveModeComboBox.Size = new System.Drawing.Size(121, 28);
+            this.moveModeComboBox.TabIndex = 3;
+            this.moveModeComboBox.Text = "直走";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 364);
+            this.Controls.Add(this.moveModeComboBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.forwardDistanceComboBox);
             this.Controls.Add(this.startButton);
@@ -94,6 +106,7 @@
         private System.Windows.Forms.Button startButton;
         public System.Windows.Forms.ComboBox forwardDistanceComboBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox moveModeComboBox;
 
     }
 }

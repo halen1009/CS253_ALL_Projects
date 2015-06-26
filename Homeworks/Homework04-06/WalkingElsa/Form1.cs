@@ -21,6 +21,7 @@ namespace WalkingElsa
                 {
                     Name = "Elsa",
                     Velocity = 50.0f,
+                    Face = 0
                 };
             elsa.StartPosition.X = 12;
             elsa.StartPosition.Y = 12;
