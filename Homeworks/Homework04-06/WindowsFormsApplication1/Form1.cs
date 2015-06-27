@@ -92,5 +92,9 @@ namespace WindowsFormsApplication1
             points.Clear();    // 清空 滑鼠軌跡點
             this.Invalidate(); // 必須更新畫面
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

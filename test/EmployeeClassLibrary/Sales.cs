@@ -6,13 +6,27 @@ using System.Threading.Tasks;
 
 namespace EmployeeClassLibrary
 {
-    internal class Sales : Employee
+    public class Sales : Employee
     {
-        public int 業績 { get; set; }
+        public int Performance { get; set; }
 
-        public void SetBenefit(int money)
+        public int Bonus { get { return (int)(Performance * 0.01); } }     //加入Bonus獎金屬性
+
+        public void ShowTotal()   // 加入顯示實領獎金方法
         {
-            this.Benefit = money;
+            Console.WriteLine("實領薪水：{0}", Bonus + Salary);
+        }
+
+        public override int Salary
+        {
+            get
+            {
+                return base.Salary;
+            }
+            set
+            {
+                base.Salary = value;
+            }
         }
     }
 }

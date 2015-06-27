@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\bin\Debug\example01.exe.config
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\bin\Debug\example01.exe
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\bin\Debug\example01.pdb
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\bin\Debug\EmployeeLibrary.dll
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\bin\Debug\EmployeeLibrary.pdb
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\obj\Debug\example01.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\obj\Debug\example01.exe
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\example01\obj\Debug\example01.pdb
+D:\程式Coding\C#\Projects\CS25320150626\example01\bin\Debug\example01.exe.config
+D:\程式Coding\C#\Projects\CS25320150626\example01\obj\Debug\example01.exe
+D:\程式Coding\C#\Projects\CS25320150626\example01\obj\Debug\example01.pdb
+D:\程式Coding\C#\Projects\CS25320150626\example01\bin\Debug\example01.exe
+D:\程式Coding\C#\Projects\CS25320150626\example01\bin\Debug\example01.pdb
+D:\程式Coding\C#\Projects\CS25320150626\example01\bin\Debug\EmployeeLibrary.dll
+D:\程式Coding\C#\Projects\CS25320150626\example01\bin\Debug\EmployeeLibrary.pdb
+D:\程式Coding\C#\Projects\CS25320150626\example01\obj\Debug\example01.csprojResolveAssemblyReference.cache

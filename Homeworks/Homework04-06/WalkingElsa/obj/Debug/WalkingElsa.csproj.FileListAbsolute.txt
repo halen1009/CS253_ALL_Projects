@@ -6,4 +6,12 @@ D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\Walkin
 D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.csproj.GenerateResource.Cache
 D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.exe
 D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.pdb
-D:\程式Coding\C#\Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\bin\Debug\WalkingElsa.exe.config
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.exe
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.pdb
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\bin\Debug\WalkingElsa.exe
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\bin\Debug\WalkingElsa.pdb
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.Form1.resources
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.Properties.Resources.resources
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\Homeworks\Homework04-06\WalkingElsa\obj\Debug\WalkingElsa.csproj.GenerateResource.Cache

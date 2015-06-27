@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLibrary", "EmployeeLibrary\EmployeeLibrary.csproj", "{C2DEF9D3-C47C-46B1-9573-4FCBF6605923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example01", "example01\example01.csproj", "{88C25401-651D-41EB-A3C3-FE69D33F237F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayParty (first version)", "練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\BirthdayParty (first version).csproj", "{3785E823-86D5-4007-872B-9CA2DAF71076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DEF9D3-C47C-46B1-9573-4FCBF6605923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DEF9D3-C47C-46B1-9573-4FCBF6605923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DEF9D3-C47C-46B1-9573-4FCBF6605923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DEF9D3-C47C-46B1-9573-4FCBF6605923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C25401-651D-41EB-A3C3-FE69D33F237F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C25401-651D-41EB-A3C3-FE69D33F237F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C25401-651D-41EB-A3C3-FE69D33F237F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C25401-651D-41EB-A3C3-FE69D33F237F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

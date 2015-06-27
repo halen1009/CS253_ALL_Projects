@@ -1,0 +1,18 @@
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\bin\Debug\BirthdayParty (first version).exe.config
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\bin\Debug\BirthdayParty (first version).exe
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\bin\Debug\BirthdayParty (first version).pdb
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty__first_version_.Form1.resources
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty__first_version_.Properties.Resources.resources
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).exe
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).pdb
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\bin\Debug\BirthdayParty (first version).exe.config
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).exe
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).pdb
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\bin\Debug\BirthdayParty (first version).exe
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\bin\Debug\BirthdayParty (first version).pdb
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty__first_version_.Form1.resources
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty__first_version_.Properties.Resources.resources
+D:\程式Coding\C#\Projects\CS25320150626\練習用程式碼\Practice01 - BirthdayParty (first version)\BirthdayParty (first version)\obj\Debug\BirthdayParty (first version).csproj.GenerateResource.Cache

@@ -53,7 +53,8 @@ namespace WalkingElsa
         {
             elsa.EndPosition.X = elsa.StartPosition.X + int.Parse(forwardDistanceComboBox.Text);
             elsa.EndPosition.Y = elsa.StartPosition.Y + int.Parse(forwardDistanceComboBox.Text);
-
+            elsa.Limit = int.Parse(forwardDistanceComboBox.Text);
+            //elsa.Rectangular();
             elsa.animationTimer.Enabled = !elsa.animationTimer.Enabled;
         }
 
@@ -61,10 +62,7 @@ namespace WalkingElsa
         {
             for (int i = 0; i <= elsa.elsaTrack.points.Count - 2; i++) // points.Count - 2 因為兩兩連線少1，還有index減1
             {
-                if (elsa.elsaTrack.points[i].X != -1 && elsa.elsaTrack.points[i + 1].X != -1) // 檢查並非滑鼠放開的斷點，才畫
-                {
-                    elsa.elsaTrack.graphic.DrawLine(elsa.elsaTrack.pen, elsa.elsaTrack.points[i], elsa.elsaTrack.points[i + 1]);
-                }
+                elsa.elsaTrack.graphic.DrawLine(elsa.elsaTrack.pen, elsa.elsaTrack.points[i], elsa.elsaTrack.points[i + 1]);
             }
         }
     }

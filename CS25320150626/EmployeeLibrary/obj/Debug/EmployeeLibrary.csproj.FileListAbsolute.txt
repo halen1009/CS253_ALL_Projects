@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\EmployeeLibrary\bin\Debug\EmployeeLibrary.dll
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\EmployeeLibrary\bin\Debug\EmployeeLibrary.pdb
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
+C:\Users\user\Desktop\Projects0628\CS253_All_Projects\CS25320150626\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb
+D:\程式Coding\C#\Projects\CS25320150626\EmployeeLibrary\bin\Debug\EmployeeLibrary.dll
+D:\程式Coding\C#\Projects\CS25320150626\EmployeeLibrary\bin\Debug\EmployeeLibrary.pdb
+D:\程式Coding\C#\Projects\CS25320150626\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
+D:\程式Coding\C#\Projects\CS25320150626\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb

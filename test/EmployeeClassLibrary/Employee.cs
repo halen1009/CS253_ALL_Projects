@@ -6,41 +6,22 @@ using System.Threading.Tasks;
 
 namespace EmployeeClassLibrary
 {
-    internal class Employee
-    {
-        private int benefit;
+    public class Employee
+    {// 定義Employee員工類別
+        protected int _salary;   // Employee員工類別，有Salary薪水屬性
 
-        protected int Benefit
+        virtual public int Salary       // 薪水介於20000~40000之間
         {
-            get { return benefit; }
+            get { return _salary; }
             set
             {
-                if (value < 0)
-                    benefit = 0;
+                if (value < 20000) // 薪水最少20000
+                    _salary = 20000;
+                else if (value > 40000)// 薪水最多40000
+                    _salary = 40000;
                 else
-                    benefit = value;
+                    _salary = value;
             }
-        }
-
-        private int baseSalary;
-
-        public int BaseSalary
-        {
-            get { return baseSalary; }
-            set
-            {
-                if (value < 20000)
-                    baseSalary = 20000;
-                else if (value > 50000)
-                    baseSalary = 50000;
-                else
-                    baseSalary = value;
-            }
-        }
-
-        public int Salary
-        {
-            get { return baseSalary + benefit; }
         }
     }
 }

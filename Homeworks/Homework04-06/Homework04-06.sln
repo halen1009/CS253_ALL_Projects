@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkingElsa", "WalkingElsa\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{93502EFA-C03F-4480-8DD6-153BF24760EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{8461FEF2-59BE-4BB3-99DD-FD11914B0339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{93502EFA-C03F-4480-8DD6-153BF24760EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93502EFA-C03F-4480-8DD6-153BF24760EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93502EFA-C03F-4480-8DD6-153BF24760EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8461FEF2-59BE-4BB3-99DD-FD11914B0339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8461FEF2-59BE-4BB3-99DD-FD11914B0339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8461FEF2-59BE-4BB3-99DD-FD11914B0339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8461FEF2-59BE-4BB3-99DD-FD11914B0339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

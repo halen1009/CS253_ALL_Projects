@@ -34,9 +34,9 @@ namespace WalkingElsa
             }
         }
 
-        private int face;
+        private double face;
 
-        public int Face
+        public double Face
         {
             get { return face; }
             set
@@ -73,6 +73,16 @@ namespace WalkingElsa
 
         #endregion 宣告Person的欄位: Name, Velovity, StartPosition, Endposition, Position, elsaImagePictureBox, animationTimer, elsaTrack
 
+        private Position turnPoint;
+        private double distance;
+        private int limit;
+
+        public int Limit
+        {
+            get { return limit; }
+            set { limit = value; }
+        }
+
         public Person()
         {
             this.startPosition = new Position() { X = 12, Y = 12 };
@@ -96,20 +106,41 @@ namespace WalkingElsa
             #endregion elsaImagePictureBox的初始值
 
             this.elsaTrack = new Track();
+            elsaTrack.points.Add(elsaImagePictureBox.Location);
             this.animationTimer = new Timer();
+
+            distance = 0;
+            turnPoint = new Position();
+            turnPoint = startPosition;
         }
 
         public void changeDirection(int turn)
         {
             face = (face + turn) % 360;
+            //turnPoint = position;
+            turnPoint.X = position.X;
+            turnPoint.Y = position.Y;
         }
 
         public Position Walk()
         {
-            float dx = velocity * (float)Math.Cos(Face) * animationTimer.Interval / 1000.0f;
-            float dy = velocity * (float)Math.Sin(Face) * animationTimer.Interval / 1000.0f;
-            return UpdateElsaPosition(position.X + dx > endPosition.X ? 0 : dx, position.Y + dy > endPosition.Y ? 0 : dy);
+            float dx = velocity * (float)Math.Cos(Math.PI / 180 * Face) * animationTimer.Interval / 1000.0f;
+            float dy = velocity * (float)Math.Sin(Math.PI / 180 * Face) * animationTimer.Interval / 1000.0f;
+            return UpdateElsaPosition(dx, dy);
         }
+
+        //public void Walk(Position turnPoint)
+        //{
+        //    double distance = 0;
+
+        //    float dx = velocity * (float)Math.Cos(Face) * animationTimer.Interval / 1000.0f;
+        //    float dy = velocity * (float)Math.Sin(Face) * animationTimer.Interval / 1000.0f;
+        //    UpdateElsaPosition(dx, dy);
+
+        //    distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
+        //    if (distance > endPosition.X)
+        //        animationTimer.Enabled = !animationTimer.Enabled;
+        //}
 
         public Position UpdateElsaPosition(float dx, float dy)
         {
@@ -122,33 +153,55 @@ namespace WalkingElsa
 
         public void animationTimer_Tick(object sender, EventArgs e)
         {
-            Rectangular();
+            distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
+            if (distance < limit)
+                Walk();
+            else
+            {
+                changeDirection(90);
 
+                //Walk();
+            }
+            //animationTimer.Enabled = false;
             //Form1.messageRichTextBox.Text = string.Format("Elsa的位置x = {0}, y = {1}", position.GetX(), position.Y);
         }
 
         public void MoveForward()
         {
-            Walk();
+            Position turnPoint = new Position();
+            turnPoint = position;
+            //Walk(turnPoint);
         }
 
         public void Rectangular()
         {
+            ////double distance = 0;
+            //distance = 0;
+            //Position turnPoint = new Position();
+            //turnPoint = position;
+
+            //animationTimer.Enabled = true;
+            //distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
+
+            //if (distance > endPosition.X)
+            //    animationTimer.Enabled = !animationTimer.Enabled;
+            //Walk(turnPoint);
+
+            animationTimer.Enabled = true;
+            changeDirection(180);
+            turnPoint = position;
+            //Walk(turnPoint);
             //for (int i = 0; i < 4; i++)
             //{
-            double distance = 0;
-            Position turnPoint = new Position();
-            turnPoint = position;
-
             //while (distance < endPosition.X)
             //{
-            Walk();
-            //distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
-            //};
-            //if((Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y))>endPosition.X)
-            if (position.X > endPosition.X)
-                changeDirection(180);
-            Walk();
+            //Walk();
+            ////distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
+            ////};
+            ////if((Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y))>endPosition.X)
+            //if (position.X > endPosition.X)
+            //    changeDirection(180);
+            //Walk();
             //}
         }
 
