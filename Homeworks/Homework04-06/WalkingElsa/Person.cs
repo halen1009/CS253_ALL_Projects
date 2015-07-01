@@ -11,7 +11,7 @@ namespace WalkingElsa
 {
     internal class Person
     {
-        #region 宣告Person的欄位: Name, Velovity, StartPosition, Endposition, Position, elsaImagePictureBox, animationTimer, elsaTrack
+        #region 宣告Person的欄位: Name, Velovity, face, StartPosition, Position, turnPoint, elsaImagePictureBox, animationTimer, elsaTrack
 
         private String name;
 
@@ -34,16 +34,16 @@ namespace WalkingElsa
             }
         }
 
-        private double face;
+        private double faceDirection;
 
-        public double Face
+        public double FaceDirection
         {
-            get { return face; }
+            get { return faceDirection; }
             set
             {
-                if (face < 0) face = 0;
-                else if (face > 360) face = 360;
-                else face = value;
+                if (faceDirection < 0) faceDirection = 0;
+                else if (faceDirection > 360) faceDirection = 360;
+                else faceDirection = value;
             }
         }
 
@@ -55,15 +55,9 @@ namespace WalkingElsa
             set { startPosition = value; }
         }
 
-        private Position endPosition;
-
-        public Position EndPosition
-        {
-            get { return endPosition; }
-            set { endPosition = value; }
-        }
-
         private Position position;
+
+        private Position turnPoint;
 
         public System.Windows.Forms.PictureBox elsaImagePictureBox;
 
@@ -71,62 +65,69 @@ namespace WalkingElsa
 
         public Track elsaTrack;
 
-        #endregion 宣告Person的欄位: Name, Velovity, StartPosition, Endposition, Position, elsaImagePictureBox, animationTimer, elsaTrack
-
-        private Position turnPoint;
-        private double distance;
-        private int limit;
-
-        public int Limit
-        {
-            get { return limit; }
-            set { limit = value; }
-        }
+        #endregion 宣告Person的欄位: Name, Velovity, face, StartPosition, Position, turnPoint, elsaImagePictureBox, animationTimer, elsaTrack
 
         public Person()
         {
-            this.startPosition = new Position() { X = 12, Y = 12 };
+            this.startPosition = new Position() { X = 112, Y = 12 };
             this.position = new Position() { X = startPosition.X, Y = startPosition.Y };
-            this.endPosition = new Position();
+            turnPoint = new Position() { X = startPosition.X, Y = startPosition.Y };
+            //turnPoint = startPosition;
+            //position = startPosition;
             this.elsaImagePictureBox = new System.Windows.Forms.PictureBox()
 
             #region elsaImagePictureBox的初始值
 
-            {
-                Image = global::WalkingElsa.Properties.Resources.tumblr_muexn83y6t1s0h0fgo1_500,
-                Location = new System.Drawing.Point(startPosition.X, startPosition.Y),
-                Margin = new System.Windows.Forms.Padding(4, 4, 4, 4),
-                Name = "elsaImagePictureBox",
-                Size = new System.Drawing.Size(80, 111),
-                SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage,
-                TabIndex = 0,
-                TabStop = false
-            };
+  {
+      Image = global::WalkingElsa.Properties.Resources.tumblr_muexn83y6t1s0h0fgo1_500,
+      Location = new System.Drawing.Point(startPosition.X, startPosition.Y),
+      Margin = new System.Windows.Forms.Padding(4, 4, 4, 4),
+      Name = "elsaImagePictureBox",
+      Size = new System.Drawing.Size(80, 111),
+      SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage,
+      TabIndex = 0,
+      TabStop = false
+  };
 
             #endregion elsaImagePictureBox的初始值
 
             this.elsaTrack = new Track();
             elsaTrack.points.Add(elsaImagePictureBox.Location);
             this.animationTimer = new Timer();
-
-            distance = 0;
-            turnPoint = new Position();
-            turnPoint = startPosition;
         }
 
-        public void changeDirection(int turn)
+        public Position changeDirection(int turn)
         {
-            face = (face + turn) % 360;
+            faceDirection = (faceDirection + turn) % 360;
             //turnPoint = position;
+
             turnPoint.X = position.X;
             turnPoint.Y = position.Y;
+            //turnPoint = this.position;
+            return this.position;
         }
 
         public Position Walk()
         {
-            float dx = velocity * (float)Math.Cos(Math.PI / 180 * Face) * animationTimer.Interval / 1000.0f;
-            float dy = velocity * (float)Math.Sin(Math.PI / 180 * Face) * animationTimer.Interval / 1000.0f;
-            return UpdateElsaPosition(dx, dy);
+            double distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
+            if (distance < Form1.distanceLimit)
+            {
+                float dx = velocity * (float)Math.Cos(Math.PI / 180 * FaceDirection) * animationTimer.Interval / 1000.0f;
+                float dy = velocity * (float)Math.Sin(Math.PI / 180 * FaceDirection) * animationTimer.Interval / 1000.0f;
+                //return UpdateElsaPosition(dx, dy);
+                position.X += (int)dx;
+                position.Y += (int)dy;
+                elsaImagePictureBox.Location = new Point(position.X, position.Y);
+                elsaTrack.points.Add(elsaImagePictureBox.Location);
+                return this.position;
+            }
+            else
+            {
+                //animationTimer.Enabled = false;
+                changeDirection(90);
+
+                return this.position;
+            }
         }
 
         //public void Walk(Position turnPoint)
@@ -142,36 +143,26 @@ namespace WalkingElsa
         //        animationTimer.Enabled = !animationTimer.Enabled;
         //}
 
-        public Position UpdateElsaPosition(float dx, float dy)
-        {
-            this.position.X += (int)dx;
-            this.position.Y += (int)dy;
-            elsaImagePictureBox.Location = new Point(position.X, position.Y);
-            elsaTrack.points.Add(elsaImagePictureBox.Location);
-            return this.position;
-        }
+        //public Position UpdateElsaPosition(float dx, float dy)
+        //{
+        //    this.position.X += (int)dx;
+        //    this.position.Y += (int)dy;
+        //    elsaImagePictureBox.Location = new Point(position.X, position.Y);
+        //    elsaTrack.points.Add(elsaImagePictureBox.Location);
+        //    return this.position;
+        //}
 
         public void animationTimer_Tick(object sender, EventArgs e)
         {
-            distance = Math.Sqrt(Math.Abs(position.X - turnPoint.X) * Math.Abs(position.X - turnPoint.X) + Math.Abs(position.Y - turnPoint.Y) * Math.Abs(position.Y - turnPoint.Y));
-            if (distance < limit)
-                Walk();
-            else
-            {
-                changeDirection(90);
-
-                //Walk();
-            }
-            //animationTimer.Enabled = false;
-            //Form1.messageRichTextBox.Text = string.Format("Elsa的位置x = {0}, y = {1}", position.GetX(), position.Y);
+            Walk();
         }
 
-        public void MoveForward()
-        {
-            Position turnPoint = new Position();
-            turnPoint = position;
-            //Walk(turnPoint);
-        }
+        //public void MoveForward()
+        //{
+        //    Position turnPoint = new Position();
+        //    turnPoint = position;
+        //    //Walk(turnPoint);
+        //}
 
         public void Rectangular()
         {
@@ -188,8 +179,8 @@ namespace WalkingElsa
             //Walk(turnPoint);
 
             animationTimer.Enabled = true;
-            changeDirection(180);
-            turnPoint = position;
+            turnPoint = changeDirection(180);
+            //turnPoint = position;
             //Walk(turnPoint);
             //for (int i = 0; i < 4; i++)
             //{

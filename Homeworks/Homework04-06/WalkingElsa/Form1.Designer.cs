@@ -78,6 +78,9 @@
             // 
             this.moveModeComboBox.Font = new System.Drawing.Font("新細明體", 12F);
             this.moveModeComboBox.FormattingEnabled = true;
+            this.moveModeComboBox.Items.AddRange(new object[] {
+            "直走",
+            "正方形"});
             this.moveModeComboBox.Location = new System.Drawing.Point(81, 283);
             this.moveModeComboBox.Name = "moveModeComboBox";
             this.moveModeComboBox.Size = new System.Drawing.Size(121, 28);

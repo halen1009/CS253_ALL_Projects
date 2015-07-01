@@ -13,18 +13,19 @@ namespace WalkingElsa
     public partial class Form1 : Form
     {
         private Person elsa;
+        public static int distanceLimit;
 
         public Form1()
         {
             InitializeComponent();
+
             elsa = new Person()
                 {
                     Name = "Elsa",
                     Velocity = 50.0f,
-                    Face = 0
+                    FaceDirection = 0,
                 };
-            elsa.StartPosition.X = 12;
-            elsa.StartPosition.Y = 12;
+
             elsa.elsaTrack.graphic = CreateGraphics();
             InitializeForm();
         }
@@ -51,11 +52,22 @@ namespace WalkingElsa
 
         private void startButton_Click(object sender, EventArgs e)
         {
-            elsa.EndPosition.X = elsa.StartPosition.X + int.Parse(forwardDistanceComboBox.Text);
-            elsa.EndPosition.Y = elsa.StartPosition.Y + int.Parse(forwardDistanceComboBox.Text);
-            elsa.Limit = int.Parse(forwardDistanceComboBox.Text);
-            //elsa.Rectangular();
-            elsa.animationTimer.Enabled = !elsa.animationTimer.Enabled;
+            distanceLimit = int.Parse(forwardDistanceComboBox.Text);
+            switch (moveModeComboBox.Text)
+            {
+                case "直走":
+                    elsa.animationTimer.Enabled = !elsa.animationTimer.Enabled;
+                    break;
+
+                case "正方形":
+                    for (int i = 0; i < 4; i++)
+                    {
+                        elsa.animationTimer.Enabled = !elsa.animationTimer.Enabled;
+
+                        elsa.changeDirection(90);
+                    }
+                    break;
+            }
         }
 
         private void Form1_Paint_1(object sender, PaintEventArgs e)
