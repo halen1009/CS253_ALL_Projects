@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace example01
 {
-    public class CPU : Product
+    public class CPU : Product						    //2.0記得類別權限要改成public
     {
         public double Frequency { get; set; }
 
@@ -29,7 +29,7 @@ namespace example01
         {
             Console.WriteLine(this.Name);
             Console.WriteLine("這是CPU類別的SaySomething()");
-            base.SaySomething();                                              //4.3以下是子類別的SaySomething()特有內容
+            base.SaySomething();                                              
             Console.WriteLine("這是CPU類別的SaySomething()的結尾");
         }
     }

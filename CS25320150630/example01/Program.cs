@@ -18,18 +18,18 @@ namespace example01
             cpu.SaySomething();
             Console.WriteLine("上面是cpu的\n");
 
-            iphone6.Amount = 1;                                             //7.X等一下7.才會用到的
+            iphone6.Amount = 1;                                             //7.3等一下7.X才會用到的
 
             Product anotherCPU = new CPU("Intel i3 4370", 6000.0, 3.5);     //6.1真正物件導向的寫法：左邊宣告成最上層的類別、右邊寫成子類別
             anotherCPU.SaySomething();                                      //6.2再寫下=new之前，Product anotherCPU的宣告，只是定義了一張貼紙而已；直到new出來後，才會在記憶體中劃出位置
-            Console.WriteLine("上面是anotherCPU的(拿掉override)\n");
+            Console.WriteLine("上面是anotherCPU的(拿掉override)\n");        //   這種寫法是把子類別的CPU，裝箱成Product
             //anotherCPU.f                                                  //6.3.1因為anotherCPU屬於Product類別，所以看不到CPU特有的Frequency
-            //6.3.2但這時的SaySomething()卻是CPU裡面的，因為用override來指定要使用CPU的SaySomething()
+            //                                                                6.3.2但這時的SaySomething()卻是CPU裡面的，因為用了override會指定要使用CPU的SaySomething()
 
             (anotherCPU as CPU).SaySomething();                             //6.4拿掉override後，要用 (anotherCPU as CPU)來叫CPU的SyaSomething()
             Console.WriteLine("上面是anotherCPU的(用了as CPU)\n");
 
-            //anotherCPU.Amount = 3;                                          //7.X等一下7.才會用到的
+            //anotherCPU.Amount = 3;                                          //7.3等一下7.才會用到的
 
             //ProductListCalculator calculator = new ProductListCalculator(); //7.4宣告一個ProductListCalculator
             //calculator.ProductList = new List<Product>();                   //7.5把ProductList給new出來

@@ -4,3 +4,9 @@ C:\Users\R380\Documents\Visual Studio 2013\Projects\test\ConsoleApplication1\bin
 C:\Users\R380\Documents\Visual Studio 2013\Projects\test\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\R380\Documents\Visual Studio 2013\Projects\test\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\R380\Documents\Visual Studio 2013\Projects\test\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\程式Coding\C#\Projects\test\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\程式Coding\C#\Projects\test\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\程式Coding\C#\Projects\test\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\程式Coding\C#\Projects\test\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\test\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\程式Coding\C#\Projects\test\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

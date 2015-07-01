@@ -1,0 +1,6 @@
+D:\程式Coding\C#\Projects\test\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+D:\程式Coding\C#\Projects\test\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+D:\程式Coding\C#\Projects\test\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+D:\程式Coding\C#\Projects\test\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+D:\程式Coding\C#\Projects\test\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+D:\程式Coding\C#\Projects\test\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache

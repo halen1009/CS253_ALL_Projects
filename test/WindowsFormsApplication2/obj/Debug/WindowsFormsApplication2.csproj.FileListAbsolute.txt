@@ -7,3 +7,12 @@ C:\Users\R380\Documents\Visual Studio 2013\Projects\test\WindowsFormsApplication
 C:\Users\R380\Documents\Visual Studio 2013\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
 C:\Users\R380\Documents\Visual Studio 2013\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 C:\Users\R380\Documents\Visual Studio 2013\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+D:\程式Coding\C#\Projects\test\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb

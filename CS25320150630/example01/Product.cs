@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace example01
 {
-    public class Product
+    public class Product				//1.0記得類別權限要改成public
     {
-        public string Name { get; set; }                //1.1虛擬欄外，偷懶寫法{ get; set; }
+        public string Name { get; set; }                //1.1虛擬欄位，偷懶寫法{ get; set; }
 
         public double Price { get; set; }
 

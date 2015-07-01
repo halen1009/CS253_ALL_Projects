@@ -15,7 +15,7 @@ namespace example01
             double totalPrice = 0.0;
             for (int index = 0; index < ProductList.Count; index++)             //7.2算List的數量用.Count
             {
-                totalPrice = ProductList[index].Price * ProductList[index].Amount;
+                totalPrice += ProductList[index].Price * ProductList[index].Amount;
                 Console.WriteLine(ProductList[index].ToString());
             }
 

@@ -4,3 +4,6 @@ C:\Users\user\Desktop\0630\Project0630\CS25320150630\example02\bin\Debug\example
 C:\Users\user\Desktop\0630\Project0630\CS25320150630\example02\bin\Debug\example02.pdb
 C:\Users\user\Desktop\0630\Project0630\CS25320150630\example02\obj\Debug\example02.exe
 C:\Users\user\Desktop\0630\Project0630\CS25320150630\example02\obj\Debug\example02.pdb
+D:\程式Coding\C#\Projects\CS25320150630\example02\bin\Debug\example02.exe.config
+D:\程式Coding\C#\Projects\CS25320150630\example02\obj\Debug\example02.exe
+D:\程式Coding\C#\Projects\CS25320150630\example02\obj\Debug\example02.pdb
